@@ -1,0 +1,32 @@
+Suma de dos números:
+Escribe una función que tome dos números como argumentos y devuelva su suma.
+
+Palíndromo:
+Escribe una función que verifique si una palabra dada es un palíndromo (se lee igual de izquierda a derecha que de derecha a izquierda).
+
+Factorial:
+Escribe una función que calcule el factorial de un número dado. El factorial de un número entero positivo n es el producto de todos los números enteros positivos desde 1 hasta n.
+
+Números primos:
+Escribe una función que determine si un número dado es primo (solo divisible por 1 y por sí mismo).
+
+Capitalizar palabras:
+Escribe una función que tome una cadena de palabras y devuelva la misma cadena con la primera letra de cada palabra en mayúscula.
+
+Suma de todos los elementos de un arreglo:
+Escribe una función que tome un arreglo de números y devuelva la suma de todos los elementos.
+
+Filtrar números pares:
+Escribe una función que tome un arreglo de números y devuelva un nuevo arreglo que solo contenga los números pares.
+
+Contar letras:
+Escribe una función que tome una cadena y devuelva un objeto que muestre cuántas veces aparece cada letra en la cadena.
+
+Verificar email:
+Escribe una función que tome una dirección de correo electrónico y determine si es válida (cumple con el formato típico de un correo electrónico).
+
+Eliminar elementos duplicados:
+Escribe una función que tome un arreglo y devuelva un nuevo arreglo con los elementos duplicados eliminados.
+
+Convertir a mayúsculas:
+Escribe una función que tome una cadena y devuelva la misma cadena en mayúsculas.
