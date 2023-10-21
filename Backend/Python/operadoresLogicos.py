@@ -11,3 +11,4 @@ Resultado8 = False | False
 
 #NO
 Resultado9 = not 2 > 49 #Devolver 
+print(Resultado9)
