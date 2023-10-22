@@ -1,3 +1,4 @@
+import time
 #Longitud de cadena
 a = 'Hello, world'
 b = '¿Como estas?'
@@ -26,7 +27,24 @@ txt = 'My name es {}, and I am {} años'
 print(txt.format(name ,age))
 print(f'Caracteres de escape'.upper())
 print('Hello\tmedellin')#Da un espacio como si fuera un tabulador
-print('Hello\n medellin')#Salto de linea
+print('Hello\n medellin')#Salto de linea 
 print('Hello\rWorld!')
+
+for i in range(5):
+    print(f'Progreso: {i + 1} de 5', end='\r') #Remplaza le existente por uno nuevo texto
+    time.sleep(1)# 
 print('It\'s alright')
+print('Hello \b World!') #Quita los espacios
+cadena1 = 'Hola soy luis fernando'.capitalize() #Convierte la primera en mayuscula 
+cadena2 = "Bienvenido luis"
+numeros = '123456';
+#print(dir(cadena1)) #Muestratodo lo que se pudeda hacer que contenta esa variable
+print(cadena2.find('d'))#Busca una cadena en una cadena. La cincidencia y me da la poscion
+print(cadena2.index('d'))# Si no hay coincidencias lanza una ecepsion
+print(numeros.isnumeric()) #Resivela cadena solo si es numerica
+print(cadena2.isalpha()) #Devuelve true si solo hay caracteres alfabeticos (Cuenta los espacios y todo)
+print(cadena2.count('b')) #Devuelves el numero de coincidencias
+print(len(cadena2))#Aumenta los caracteres que hay
+print(cadena2.startswith('Bi'))#Verifica con que empieza la cadena, con que caracter
+print(cadena2.endswith('is'))#Verifia con que finaliza la cadena
 
