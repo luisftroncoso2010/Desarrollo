@@ -4,8 +4,7 @@ diccionario = {
     'Subs': 1000
 }
 claves = diccionario.keys(); #Trae las claves del diccionario
-#Trae la llave del un valor en un diccionario y no manda excepcion
-claves2 = diccionario.get('Nombre')
+claves2 = diccionario.get('Nombre') #Trae la llave del un valor en un diccionario y no manda excepcion
 print(claves2)
 #Elimina todo del diccionario
 #diccionario.clear() <-
