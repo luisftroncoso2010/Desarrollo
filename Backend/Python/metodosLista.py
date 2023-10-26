@@ -1,5 +1,5 @@
 #Creando lista on list
-lista = (['Ana', 22, 2023])
+lista = list(['Ana', 22, 2023])
 print(lista)
 lista2 = ['Ana', 22, 2023]
 print(lista2)
@@ -11,6 +11,7 @@ lista2.append('Andres')#Agregando un elemento elemento a la lista
 lista2.insert(2, 24)#Agrega elementos a la lista indiandole el indice
 #lista2[2] = 222 #Agrega elemento en la lista dependiendo el indice
 lista2.extend([False, 'luis', 785])#Agega varios elementos a la lista
+
 lista2.pop(4)#Elimina el elemento que querramos de la lista por indice
 lista2.pop(-2)#Elimina el segundo elemnto en reverza
 print(lista2)
