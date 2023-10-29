@@ -94,4 +94,4 @@ setIssubsetUno.symmetric_difference_update(setIssubsetDos)
 print(f'issubset() subconjuto:  {updateissubset}')
 print(f'issuperset() superconjunto: {updateissuperset}')
 print(f'symetric_difference() Elementos que no se comparten: {updatesymetryc_difference}')#Este y el de abajo don practicamente igual
-print(f'symmetric_difference_update(): Elimina todo los repetido en A y B: {setIssubsetUno}')
+print(f'symmetric_difference_update(): Elimina todo lo repetido en A y B: {setIssubsetUno}')
