@@ -14,7 +14,7 @@ while contador2 <= 10:
     print(contador2)
     contador2 +=2
 '''
-Mientras que la condicion se cumple el buble se va a ejecutar 
+Mientras que la condicion se cumple el bucle se va a ejecutar 
 (Vuelta, tras vuelta se verifica la condicion)
 ''' 
 print('-----')

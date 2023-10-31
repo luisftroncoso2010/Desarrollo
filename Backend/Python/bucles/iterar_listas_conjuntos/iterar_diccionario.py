@@ -1,4 +1,4 @@
-''' iterar diccionarios'''
+''' Iterar diccionarios'''
 
 diccionarios = {
     'nombre': 'Lucas',
@@ -19,7 +19,8 @@ for datos in diccionarios.items():
 #iterar el diccionario, clave/valor. Forma 2
 for llave, valor in diccionarios.items():
     print(f'La llave es {llave} y los valores son {valor}')
-    
+
+#Iterar una fruta    
 frutas = ["manzana", "plátano", "naranja", "uva"]
 for indice, fruta in enumerate(frutas):
     print(f"Índice {indice}: {fruta}")
