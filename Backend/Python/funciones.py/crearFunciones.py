@@ -31,12 +31,14 @@ saludarDos('no me defino', '')
 print('--Crear una funciom con return--')
 def crearContraseña(num):    
     chars = 'fknvlsknlksvnfd'
-    #numero_entero = str(num)    
-    #num = int(numero_entero[0])
+    numero_entero = str(num)    
+    num = int(numero_entero[0])
     c1 = num - 2
     c2 = num 
     c3 = num - 5
     contraseña = f'{chars[c1]}{chars[c2]}{chars[c3]}{num*2}'
-    return print(contraseña)
+    return contraseña, num
 
-crearContraseña(3)
+contraseña, numeroPasado = crearContraseña(600)
+print(f'Tu contraseña nueva es: {contraseña}') 
+print(f'El numero que pasaste es: {numeroPasado}') 
