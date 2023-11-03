@@ -9,7 +9,7 @@ multiplicarPorDos = lambda x : x*2 #Retorna automaticamente
 print(multiplicarPorDos(5))
 
 #Usando una funcion comun si es par uno
-print('--Buscando numeros pares')
+print('--Buscando numeros pares--')
 def es_par(num):
     if (num% 2 == 0):
         return True
