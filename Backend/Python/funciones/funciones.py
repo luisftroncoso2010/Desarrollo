@@ -97,10 +97,8 @@ def fibonacciRecuersivo(n):
         return 0
     elif n == 1:
         return 1
-    else:
-        
+    else:        
         return fibonacciRecuersivo(n -1) + fibonacciRecuersivo(n-2)
-
 resultadoFibonacci = fibonacciRecuersivo(3)
 print(resultadoFibonacci)
 
@@ -112,8 +110,7 @@ print(resultadoFibonacci)
         
     
 
-def listaPrimos(num):
-    
+
     
     
         
