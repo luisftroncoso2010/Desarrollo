@@ -29,3 +29,13 @@ print(list(numerosParesList))
 print('--Numeros pares pero con lambda--')
 numerosParesLambda = filter(lambda numero: numero % 2 == 0, numeros)
 print(list(numerosParesLambda))
+
+print('--Contesto lambda--')
+x = lambda a: a + 10
+print(x(5))
+
+print('--Funcion lambada anonima dentro de otra--')
+def mYfuncionn(n):
+    return lambda a: a * n
+myDouble = mYfuncionn(2)
+print(myDouble(11)) #Se debe pasar dos veces el arguemnto ya que  son dos funcionesdentro de otra
