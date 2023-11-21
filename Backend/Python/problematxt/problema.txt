@@ -1,0 +1,17 @@
+Los datos son:
+
+nombre: Lucas
+Apellido: Troncoso
+-------------
+nombre: Matias
+Apellido: Montes
+-------------
+nombre: Leonardo
+Apellido: Alvares
+-------------
+nombre: Luis
+Apellido: Jimenez
+-------------
+nombre: Juan
+Apellido: Belgrano
+-------------
