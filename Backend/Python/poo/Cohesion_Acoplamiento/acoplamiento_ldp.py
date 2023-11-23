@@ -1,6 +1,7 @@
 '''
-Acoplamiento: Se refiere en la medida que unas clases dependen de otras.
+Acoplamiento: Se refiere en la medida que un modulo de clases dependen de otras.
 '''
+print('Acoplamiento fuerte. Ejemplo 1')
 #Creamos la clase Pila (Pila de la calculadora)
 class Pila:
     #Creamos el constructor
@@ -54,6 +55,21 @@ mi_calculadora.pila.apilar
 mi_calculadora.restar()
 print(mi_calculadora.pila.items)  
 
+print('Acoplamiento fuerte. Ejemplo 2')
+#Creamos la clase 
+class clase1:
+    x = True#Si lo cambiamos a False, mandara una exepcion
+    pass
+#Creamos la segunda clase
+class clase2:
+    def mi_metodo(self, valor):
+        if clase1.x:
+            self.valor = valor
+
+mi_clase = clase2()
+mi_clase.mi_metodo('Hola')
+print(mi_clase.valor)
+print(clase2.__mro__)#No mostrara una secuencia ya que no hay herencia
 
 
 
