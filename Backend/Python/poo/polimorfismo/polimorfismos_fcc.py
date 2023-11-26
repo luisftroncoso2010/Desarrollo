@@ -25,6 +25,6 @@ objeto1 = Point(10, 5, 2)
 objeto2 = Point(2, 3, 2)
 objeto3 = Point(2, 3, 1)
 #Hacemos la suma de los objetos ya almacenados
-resultado_suma_objetos = objeto1 * objeto2 + objeto3
+resultado_suma_objetos = objeto1 + objeto2 + objeto3
 print(resultado_suma_objetos)
 
