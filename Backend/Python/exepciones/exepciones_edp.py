@@ -47,4 +47,56 @@ except Exception as e:
 else:
     print(f'Resultado: {resultado}')
     
+print('--Uso del try y Except--')
+n = 5
+m = 0
+try:
+    p = n/m
+except ZeroDivisionError:
+    print('No se puede relizar la divicion')
+else: print('Division exacta')
+
+print('--Capturar Varias Excepciones--')
+#Capturamos la excepcion 
+try:
+    #k = 5/0 #Aca entrará en ZeroDivision error
+    d = 2 + "Hola"#Acá entrara en pproblemas de tipos
+except ZeroDivisionError:
+    print('No sse puede dividir entre 0')
+except TypeError:
+    print('Problemas de tipos!')    
+
+print('--Capturar Varias Excepciones--')
+#Capturamos la excepcion 
+try:
+    #k = 5/0 #Aca entrará en ZeroDivision error
+    d = 2 + "Hola"#Acá entrara en pproblemas de tipos
+except (ZeroDivisionError, TypeError) as e:
+    print(f'No sse puede dividir entre 0 / Problemas de tipos! {e}')
+    
+print('--Excepsiones en el manejo de ficheros--')
+#Creamos una excepsion para manear el archivo Read
+try:
+    with open('Fichero.txt') as file:#Este archivo no existe
+        read_data = file.read()
+except:
+    #aca se entra si no pude ser abierto
+    print('No se pude abrir:')
+
+print('--Especificando el tipo de excepsion--')
+#Se intetna abrir un fichero y se captura una posible excepción
+try:
+    with open('fichero.txt') as file:
+        read_data = file.read()
+except OSError as e:#para saber el erro hay que sabar lso tipos de errores
+    print(f'OSError. no se pude abrir: {e}')
+    
+
+
+    
+
+
+
+
+
     
