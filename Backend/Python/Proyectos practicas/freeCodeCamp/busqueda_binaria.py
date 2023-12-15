@@ -39,7 +39,7 @@ def busqueda_ingenua(lista, objetivo):#el objetivo se le dice Target
 if __name__ == '__main__':
     #esta es la lista
   #Crear una lista ordenada con 10000 números aleatorios
-  tamaño = 30000
+  tamaño = 100000
   conjunto_inicial = set()#No habran elementos repetidos por ser set
   
   while len(conjunto_inicial) < tamaño:
