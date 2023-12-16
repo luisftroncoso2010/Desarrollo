@@ -13,3 +13,6 @@ def multiplicacion(a, b):
 #Si olocamos el main de esta manera. El mensaje solo se ejecutara dentro del modulo, no fuera de este. 
 #if __name__ == '__main__':#aca si seejecuta el mensaje por que le modulo esta en su propio main
 #    print('Este es el modulo operaciones')
+
+if(__name__ == '__main__'):    
+    print(suma(4,4))

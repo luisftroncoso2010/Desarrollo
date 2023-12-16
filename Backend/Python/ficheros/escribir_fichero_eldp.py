@@ -53,8 +53,28 @@ with open('Backend/Python/ficheros/datos_guardados.txt', 'r', encoding='utf-8') 
     for linea in fich.readlines():
         print(linea, end='')
 
+'''Nota: Con el with nos ahorramos el close() y no creamos variables,
+le damos un as la with y los trabjamos ocn un ciclo'''
+print('--Escribir un fichero con un metodo--')
+#Crearemos un fichero
+def escribe_fichero(mensaje):
+    with open('Backend/Python/ficheros/fichero_comunicacion.txt', 'w', encoding='utf-8') as ficheroMetodo:
+        ficheroMetodo.write(mensaje)
 
-        
+#Leer el mesnaje del fichero
+def lee_fichero():#Metodo para leer el fichero
+    mensaje = ''#Mensaje
+    with open('Backend/Python/ficheros/fichero_comunicacion.txt', 'r') as ficheroMetodo:
+        mensaje = ficheroMetodo.read()
+    #Borra el contenido de lfichero y lo deja vacio    
+    f = open('Backend/Python/ficheros/fichero_comunicacion.txt', 'w')
+    f.close()
+    return mensaje
+
+#Pasamos el mensaje el metodo por parametro y crear el fichero
+escribe_fichero('Hola\nIng sistemas\nMedellin')
+print(lee_fichero())#Muestra los datos por consola del fichero, pero en relidad no tiene nada.
+
 
 
         
