@@ -17,7 +17,7 @@ lista_letras = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 # Creamos una lista vacia para almacenar los duplicados
 duplicados = list()
 for value in lista_letras:  # Recorremos la lista con los duplicados
-    if lista_letras.count(value) > 1:  # Contalos los valores que son mayores a uno
+    if lista_letras.count(value) > 1:  # Cuenta los valores que son mayores a 1
         # Se valida si dicho valor no esta en la lista duplicados
         if value not in duplicados:
             duplicados.append(value)  # Se añade a la lista vacia
@@ -28,6 +28,8 @@ print(f'Lista de duplicados de letras: {duplicados}')
 
 
 '''Forma simple, para eliminar duplicados'''
+
+
 # Se crea uan compresion de listas y se almacena un set() para que no se repita
 _duplicados = set([x for x in lista_letras if lista_letras.count(x) > 1])
 print(_duplicados)  # Mostramos la lista solamente de los valores duplicados
@@ -35,6 +37,8 @@ print(_duplicados)  # Mostramos la lista solamente de los valores duplicados
 
 '''Los sets tambien tienen otros métodos, vemos algunos a
 continuación. '''
+
+
 print('-- Interseccion y Diferencia de sets')
 set_uno_colores = set(['amarillor', 'rojo', 'azul', 'verde', 'negro'])
 set_dos_colores = set(['rojo', 'marron'])
@@ -42,6 +46,3 @@ set_dos_colores = set(['rojo', 'marron'])
 print(set_dos_colores.intersection(set_uno_colores))
 # Muestra el elemento que solo esta en un conjunto
 print(set_dos_colores.difference(set_uno_colores))
-
-
-
