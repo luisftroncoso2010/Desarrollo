@@ -1,0 +1,105 @@
+from collections import namedtuple
+''' Variables Globales en una funcion '''
+
+
+print('-- Funcion normal')
+
+
+# Creamoa la funcion que me retornará la suma, un solo valor
+def suma(valor_uno, valor_dos):
+    return valor_uno + valor_dos
+
+
+# Instanciamos la variable
+_resultado = suma(5, 4)  # Toma dos valores de entrada valor_uno y _valor_dos
+print(f'El resultado de la funcion {suma.__name__} es: {_resultado}')
+
+
+print('-- Funcion suma, con variable global')
+
+
+# Creamos la funcion con variables globales
+def sumaGlobal(valor_uno, valor_dos):
+    global result
+    result = valor_uno + valor_dos
+
+
+# PAsamos los valores a la funcion sumaGlobal
+sumaGlobal(3, 5)
+# Aca mostramos la variable global. Accedera al ultimo valor que contenga
+print(f'el resultado de la funcion {sumaGlobal.__name__} es: {result}')
+
+
+print('-- Devolciendo múltiples valores')
+
+
+# cremoa la variable con al que devolveremos multiples valores
+def perfil():
+    global name
+    global age
+    name = 'pelayo'
+    age = 30
+
+
+# Mostramos la funcion para uqe se pueda acceder a la variable global
+perfil()
+print(name)  # Imprimimos el nombre de la variable global
+print(age)   # Imprimimos la nombre de la variable global
+
+
+print('-- Devolviendo un iterable (Tupla)')
+
+
+# Creamos la funcion que devolverá una tupla
+def perfilPersona():
+    nombre = 'Pelayo'
+    edad = 30
+    return nombre, edad
+
+
+# Instaciamso la funcion/almacenamos en una variable
+datos_perfil = perfilPersona()
+# Accedemos a lso valores por indice
+print(datos_perfil[0])
+print(datos_perfil[1])
+
+
+print('-- Accediendo a los valores')
+
+
+# Creacion de la funcion
+def perfilDatos():
+    nombre = 'Luis'
+    edad = 40
+    return nombre, edad
+
+
+# Desempaquetando la funcion
+nombre_perfil, edad_perfil = perfilDatos()
+print(f'El nombre almacenado {perfilDatos.__name__} es: {nombre_perfil}')
+print(f'La edad {perfilDatos.__name__} es: {nombre_perfil}')
+
+
+print('-- Usando collections namedtuple')
+
+
+def datosPersona():
+    Persona = namedtuple('Persona', 'nombre, edad')
+    return Persona(nombre='Leo', edad=38)
+
+
+# Usando el namedTuple
+p = datosPersona()
+# Imprimimos la tupla
+print(p, type(p))
+# Imprimimos el nombre y la edad
+print(p.nombre)
+print(p.edad)
+'''Otra manera de usar el namedtuple, por indice'''
+# Impirmir por poscicion
+print(p[0])  # Imprimime el valor, entramos por la key
+print(p[1])  # Imprime el valor, entramos por la key
+'''También se puede hacer por unpacking'''
+nombre, edad = datosPersona()
+print(f'Nombre de la funcion {datosPersona.__name__} es: {nombre}')
+print(f'Edad de la funcion {datosPersona.__name__} es: {edad}')
