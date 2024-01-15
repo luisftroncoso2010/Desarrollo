@@ -46,8 +46,10 @@ class Especies(Enum):
     perrito = 4
 
 
+# Aca mezclamos el named tuple de tipo Especie y con namedtuple
 Animal = namedtuple('Animal', 'name age type')
 perry = Animal(name='Perry', age=31, type=Especies.gato)
 print(perry)
 atena = Animal(name='Atena', age=25, type=Especies.gato)
 print(atena)
+print(Especies.buho.value)
