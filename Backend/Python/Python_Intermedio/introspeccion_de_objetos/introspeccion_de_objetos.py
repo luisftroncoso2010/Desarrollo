@@ -38,3 +38,24 @@ print(f'Identificador unico de cada objeto: {id(nombre)}')
 print('-- Módulo inspect')
 
 print(inspect.getmembers(str))
+
+
+def ejemplo_inspect(parametroUno, parametroDos='Valor por defecto'):
+    return parametroUno + parametroDos
+
+
+print(inspect.signature(ejemplo_inspect))
+
+
+print('-- __dict__')
+
+
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+
+persona = Persona('Luis', 30)
+# Mapea nombres de atributos y valores
+print(persona.__dict__)
