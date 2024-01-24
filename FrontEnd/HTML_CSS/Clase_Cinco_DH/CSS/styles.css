@@ -1,0 +1,26 @@
+.destacado{
+    font-size: 15px;
+    color: blakc;
+    background: red;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+#titulosH3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 23px;
+}
+
+h4{
+    font-size: 14px;
+}
+
