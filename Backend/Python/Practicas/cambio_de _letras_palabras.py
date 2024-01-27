@@ -1,7 +1,7 @@
 '''Cambio de letras por palabras.
 Se desea cambiar el nombre que tiene una lista de nombres'''
 
-print('-- Cambio de letras por numeros en nombre.')
+print('-- Cambio de letras por números en nombre.')
 
 
 # Creamos el set e nombres
@@ -12,7 +12,7 @@ abecedario = ['A', 'B', 'C', 'D', 'E', 'F', 'G',
               'Ñ', 'O', 'P', 'Q', 'R', 'S', 'T',
               'U', 'V', 'W', 'X', 'Y', 'Z']
 # Creamos el set de numeros de remplazo (Numero iguales que el abecedario)
-numerosABC = list(range(1, 28))
+númerosABC = list(range(1, 28))
 
 
 # Iniciamos la variable para con tar el ciclo
@@ -33,7 +33,7 @@ while x < NUMERODEELEMENTOS:
             # Condicion para comparar cada caracter de los elementos
             # Del set abecedario
             if letra == letra_abecedario:
-                nombreAuxiliar += str(numerosABC[indice])
+                nombreAuxiliar += str(númerosABC[indice])
     print(f'Nombre: {nombres[x]}\tNumero: {nombreAuxiliar}')
     nombreAuxiliar = ''
     x += 1
