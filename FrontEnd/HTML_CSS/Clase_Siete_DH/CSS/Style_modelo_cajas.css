@@ -1,0 +1,24 @@
+/* 
+Nuestro trabajo será agregarles a estas cajas propiedades de CSS que solo entiendan los elementos de bloque. 
+Estas son las características que deberán tener:
+
+Ancho fijo de 100px
+Borde sólido rojo de 1px
+Padding de 5px
+Margen de 10px
+Por último, queremos que el ancho final de cada <div> sea de 100px incluyendo el borde.
+¿Con qué propiedad podemos configurar eso? */
+body{
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 100px;
+    border: solid red 1px;
+    padding: 5px;    
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
