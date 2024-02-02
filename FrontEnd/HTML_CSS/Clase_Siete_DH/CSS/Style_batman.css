@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;     
+      
+}
+
+
+.primertitulo{
+    align-items: center;
+    background-color: #1CD1B0;    
+    display: flex;
+    font-size: 18px;
+    height: 35px;
+    top: -5px;
+    margin: 0px;    
+    padding-left: 35px;
+    width: 100%;
+}
+
+
+header{
+    background-color: #00669F;
+    align-items: center;
+    display: flex;
+    height: 150px;
+    padding-left: 35px;
+    font-size: 80px;    
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    margin: 0%;
+    width: 100%;   
+}
+
+
+.contenedor{
+    margin-top: 200px;    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+
+.batman-1{
+    position: relative;
+    background-color: hsla(0, 4%, 22%, 0.10);
+    color: black;
+    text-align: center;
+    height: 500px; 
+    width: 300px;  
+     
+    
+}
+
+
+.corazon{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 20px;
+}
+
+
+.logoBatman{
+    position: absolute;
+    border-radius: 50%;
+    left: 90px;
+    top: 130px;
+}
+
+
+h2{
+    margin-top: 60px;
+    padding: 0px;
+}
+
+p{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15.5px;
+}
+
+
+button{
+     
+    height: 40px;  
+    background-color: #00669F; 
+    color: white;
+    border: none;
+}
+
+
+footer{
+    margin-top: 80px;
+    align-items: center;
+    display: flex;
+    background-color: #00669F;
+    width: 100%;
+    height: 40px;
+    padding-left: 35px;
+    color: white;
+}
+
