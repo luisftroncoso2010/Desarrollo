@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+
+h2{
+    color: #4C7972;
+    margin: 20px;
+}
+
+
+section{
+    background-color: #4e5072;
+    display: flex;
+    justify-content: space-around;   
+    height:  500px;
+    flex-direction: row;
+    align-items: center;    
+}
+
+
+.box{
+    font-size: 20px;
+    padding: 4px;
+}
+
+
+.caja1{
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+.caja2{
+    background-color: azure;
+    padding: 10px;
+}
+
+
+.caja3{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+
+.caja4{
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+.caja5{
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+
+
