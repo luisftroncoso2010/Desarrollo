@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+body{
+    background-color: rgb(220, 213, 213);
+}
+header{
+    padding: 23px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    display: flex;
+    flex-direction: row;      
+    justify-content: space-between;
+    width: 100%;
+    font-size: 17px;    
+}
+
+
+header div{
+    display: flex;
+}
+
+
+.nombre{
+    display: flex;
+    flex-direction: row;
+    align-self: center;    
+    margin-left: 12%;  
+   
+}
+
+
+article .tituloUno{
+    color: green;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+article .tituloTres{
+    color: red;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 20px;  
+    border: 1px solid rebeccapurple;
+    width: 95%;  
+}
+
+.sectionGeneral{
+    flex: 1;
+}
+
+.sectionUno{
+    display: flex;
+    flex: 1;
+}
+
+
+.sectionUno article{
+    
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;             
+}
+
+
+.sectionUno img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+.sectionUno article h2{    
+    display: inline;    
+}
+
+.sectionUno article .h2Rojo{
+    color: red;
+}
+
+.sectionUno article .h2Blanco{
+    color: white;
+}
+
+.sectionDos{    
+    display: inline;
+    background-color: white;
+    justify-content: center;
+   
+
+}
+
+.sectionDos .h2Rojo{
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+h3{    
+    margin-top:  20px;
+    margin-left: 60px;
+}
+
+
+.sectionDos .carta{
+   font-size: 20px;
+   display: flex;    
+   
+   width: 100%;      
+   justify-content: space-between;
+   padding: 28px;
+}
+
+
+nav{    
+    display: flex;    
+    align-self: center;    
+    flex-direction: row;
+}
+
+
+footer{
+    margin-top: 80px;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;       
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-self: center;          
+}
+
+footer ul li{
+    margin-left: 20px;
+    color: white;   
+}
+ul li {
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 25px;      
+}
+
+
+.logoFinal{
+    padding: 20px;
+    display: flex;    
+    align-self: center;  
+}
+
+
+article .tituloUno{
+    color: green;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+article .tituloTres{
+    color: red;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+article .tituloDos{
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+
+
