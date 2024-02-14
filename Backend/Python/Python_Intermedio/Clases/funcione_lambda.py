@@ -1,8 +1,8 @@
 '''Funciones Lambda'''
 
 # Funcion suma (Basica)
-suma = lambda x, y: x + y
-print(f'Usamos la funcion lambda: {suma(5, 5)}')
+'''suma = lambda x, y: x + y
+print(f'Usamos la funcion lambda: {suma(5, 5)}')'''
 
 
 print('-- Ordenar una lista')

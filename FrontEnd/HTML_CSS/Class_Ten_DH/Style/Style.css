@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Establecemos un tamaño máximo y mínimo para la caja padre */
+.caja-padre {
+    
+    width: 90vmax; /* El 80% del tamaño máximo (ancho o altura) del viewport */
+    height: 60vmin; /* El 60% del tamaño mínimo (ancho o altura) del viewport */
+    background-color: lightgray;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  /* Establecemos el ancho y la altura de los hijos relativos al tamaño de la caja padre */
+  .caja-hijo {
+    width: 50vmax; /* El 50% del tamaño máximo de la caja padre */
+    height: 30vmin; /* El 30% del tamaño mínimo de la caja padre */
+    background-color: skyblue;
+    text-align: center;
+    padding: 50px;       
+  }
+  .arriba {
+    background-color: blueviolet;
+    height: 40vh;
+    width: 100%;
+    
+    }
+    
+    .abajo {
+    background-color: brown;
+    height: 60vh;
+    width: 100%;
+    
+    }
+  
