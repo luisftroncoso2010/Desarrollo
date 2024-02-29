@@ -1,32 +1,30 @@
 function iniciarJuego(){
-    // Saludar al visitante
-    alert("Bienvenido al juego de piedra papel o tijeras de Frontend");    
-    let nombre;
+    let ok = false;
+    let soloLetras
+    // suludamos al usuario
+    alert("Bienvenido al piedra papel o tijera de Frontend II.");
+
     do {
-        nombre = prompt("Me puede indicar su nombre: ").trim();
-        if(!(/^[a-zA-Z]+$/.test(nombre) && nombre.length >= 3)){
-            alert("Por favor ingrese un nombre con eltamaño de letras valido")
-        }else{
-           nombre = nombre.toLocaleUpperCase();
-        }        
-        
-    } while (!(/^[a-zA-Z]+$/.test(nombre) && nombre.length >= 3));
+        let nombre = prompt("Ingese su nombre por favor:").toUpperCase().trim()
+        soloLetras = /^[a-zA-Z]+$/
+        // guardamos en una variable en nombre ingresado
+        // if (!isNaN(nombre) || nombre.length <= 3) {
+        if (nombre.length < 3 || !soloLetras.test(nombre)) {
 
-    // MOstrando datos por consola 
-    console.log(`---------------------`);
-    console.log(`El nombre del jugador es: `);
-    console.log(nombre.toLocaleUpperCase());
-    console.log(`---------------------`);
-
-    return nombre.toLocaleUpperCase();
+            alert("Tu nombre debe tener mas de 3 caracteres y no se permiten numeros");
+            nombre = prompt("Ingese su nombre por favor:").toUpperCase()
+            ok = true
+        } else {
+            ok = false
+            alert("Gracias por jugar " + nombre + ". ¡Mucha suerte!");
+            // mostramos los datos por consola
+            console.log("----------------------------");
+            console.log("El jugador es:")
+            console.log(nombre);
+            console.log("----------------------------");
+            return nombre;
+        }
+    } while (ok == true) 
 }
+ 
 
-iniciarJuego();
-
-
-/* -------------------------------------------------------------------------- */
-/*                          CONSIGNA                          */
-/* -------------------------------------------------------------------------- */
-// 1- Modificar la funcion de iniciarJuego(), validar si ingresa un dato válido como nombre.
-// 2- Si no ingresa un texto, o tiene menos de 3 caracteres debemos volverle a pedir que lo ingrese.
-// 3- Finalmente el nombre devuelto debe estar todo en mayúsculas.

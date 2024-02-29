@@ -11,4 +11,11 @@ console.table(miObjeto);
 console.table(miArray);
 console.log(5+5);
 
-console.log()
+// Ejemplo de Math
+let randomSimple = Math.random();
+console.log(randomSimple)
+let randomEscalado = Math.random()*(100 - 1) + 1;
+console.log(randomEscalado);
+console.log(parseInt(randomEscalado));
+let num = Math.round(20.49);
+console.log(num);
