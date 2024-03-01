@@ -21,7 +21,7 @@ const imagenes = document.querySelectorAll(".noticias article img");
 console.log(imagenes);
 
 // Se le agrega el "alt" con su respectivo atributo
-imagenes[0].setAttribute("alt", "miniatura de noticial");
+imagenes[0].setAttribute("alt", "miniatura de noticias");
 
 /* Capturamos el main (Para agregar los otros elementos, atravesd del array) */
 const main = document.querySelector(".noticias");
