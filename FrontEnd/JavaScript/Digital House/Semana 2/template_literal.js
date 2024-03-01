@@ -11,10 +11,12 @@ const listadoNoticias = [
     }    
 ];
 
-
+const imagenes = document.querySelectorAll(".noticias article");
+console.log(imagenes);
 
 /* Capturamos el main */
 const main = document.querySelector(".noticias"); 
+
 // Recorremos el listado de noticias para cargarlas dinámicamente
 listadoNoticias.forEach(noticia => {
     main.innerHTML += `
@@ -23,7 +25,7 @@ listadoNoticias.forEach(noticia => {
           <img src="${noticia.foto}" alt="${noticia.titulo}">
           <p>${noticia.epigrafe}.</p>
       </article>`;
-  });
+});
 
 
 
