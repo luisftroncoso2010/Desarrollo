@@ -1,4 +1,4 @@
-function pedirJugada(){
+ function pedirJugada(){
     // Elecccion para juego
     let eleccion = 0;
     do {

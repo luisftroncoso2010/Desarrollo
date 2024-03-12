@@ -39,7 +39,7 @@ const albumesFamosos = [{
 // funcion captar nombre de usuario
 function obtenerUsuario(){
     const nombreUsuario = document.querySelector('#nombreUsuario');
-    let usuario = "";
+    let usuario = ""
 
     // Perdir nombre de uauario hasta que sea valido
     do{
