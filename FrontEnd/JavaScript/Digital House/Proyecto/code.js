@@ -49,7 +49,7 @@ function obtenerDatosDelUsuario() {
     // Nombre
     do {  
       soloLetras = /^[a-zA-Z]+$/      
-      nombre = prompt("Nombre: ").trim()      
+      nombre = prompt("Nombre: ")   
   
       if (nombre === null) {
         // El usuario presionó Cancelar, salimos del bucle

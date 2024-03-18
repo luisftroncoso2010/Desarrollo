@@ -46,7 +46,6 @@ marcarFavoritos();
 // 5- Acto seguido debemos llamar a las funciones de renderizar y marcar favorito para que sean nuevamente aplicadas.
 
 window.addEventListener("keydown", eliminarAlbum)
-
 function eliminarAlbum(evento){
     //console.log(evento)    
     //console.log(evento.code)
@@ -55,7 +54,6 @@ function eliminarAlbum(evento){
         console.log("Has precionado la letra f")
         const albumAEliminar = prompt("¿Que album quieres eliminar?").toLowerCase()
         console.log(`Posicion eliminar: ${albumAEliminar}`)
-
 
         const nombre = albumesFamosos.findIndex(album => album.nombre.toLowerCase() === albumAEliminar)
         console.log(nombre) 
@@ -70,8 +68,8 @@ function eliminarAlbum(evento){
         // Hacemos la llamada recursiva para validar volver a usar
         marcarFavoritos(albumesFamosos)       
     }       
-}; 
-eliminarAlbum();
+}
+
 
 
    
