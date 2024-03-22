@@ -7,6 +7,3 @@ const {saludar, saludarHolaMundo} = require('./saludos.js')
 // Mostramos pro consola el modulo saludo
 console.log(saludar('Luis'))
 console.log(saludarHolaMundo())
-
-
-
