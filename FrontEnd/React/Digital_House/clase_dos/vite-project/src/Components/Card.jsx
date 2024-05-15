@@ -1,27 +1,29 @@
 import CardStyle from '../Styles/Card.module.css'
-console.log(CardStyle);
 import PropTypes from 'prop-types'
+import { Counter } from './Counter';
 
-
-const Card = (props) => {
-    const { pizza } = props    
+const Card = ({item, setCart}) => {   
+    
+  const { img, tipo, precio } = item 
 
   return (
     <div className={CardStyle.cardContainer}>        
-        <img src={pizza.img} alt={pizza.tipo} className={CardStyle.cardImg}/>
-        <h4>{pizza.tipo}</h4>
-        <h4>${pizza.precio}</h4>
-        <button>🛒</button>                            
+        <img src={img} alt={tipo} className={CardStyle.cardImg}/>
+        <h4>{tipo}</h4>
+        <h4>${precio}</h4>
+        <Counter />
+        <button onClick={() => setCart((prevState) =>[...prevState, item])}>🛒</button>                            
     </div>
   )
 }
 
 Card.propTypes = {
-    pizza: PropTypes.shape({
+    item: PropTypes.shape({
       img: PropTypes.string.isRequired,
       tipo: PropTypes.string.isRequired,
-      precio: PropTypes.string.isRequired,
-    }).isRequired,
+      precio: PropTypes.string.isRequired,      
+    }).isRequired,       
+    setCart: PropTypes.func.isRequired,      
   }
 
-export {Card}
+export { Card }
