@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id='root'>
+        <h1>Lista de peliculas</h1>
+    </div>
+
+    <script type="text/javascript">
+        const lista = [
+            "El Padrino",
+            "Titanic",
+            "El Señor de los Anillos: La Comunidad del Anillo",
+            "Forrest Gump",
+            "Pulp Fiction",
+            "Matrix",
+            "La Lista de Schindler",
+            "El Rey León",
+            "El Resplandor",
+            "Volver al Futuro",
+            "Jurassic Park",
+            "Gladiator",
+            "Interestelar",
+            "La La Land",
+            "El Gran Dictador",
+            "El Club de la Lucha",
+            "El Laberinto del Fauno",
+            "La Vida es Bella",
+            "Interestelar",
+            "Parásitos"
+        ]; 
+
+        const peliculas = () => {
+            const peliculas = lista.map((peli, indice) => React.createElement('li', null, `${indice}. ${peli}` ))
+            // Se crea el elemento de tipo peliculas 
+            return React.createElement('ul', null, peliculas) 
+
+        }
+        const div = document.getElementById('root')
+
+        ReactDOM.render(
+            peliculas(),
+            div
+        )
+    </script>
+    
+</body>
+</html>
