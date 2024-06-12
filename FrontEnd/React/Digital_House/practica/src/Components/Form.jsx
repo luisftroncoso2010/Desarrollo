@@ -12,7 +12,6 @@ const Form = () => {
     const [show, setShow] = useState(false)
     const [error, setError] = useState(false)
 
-
     const handleSubmit = (e) => {
         e.preventDefault()
         const regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
@@ -23,7 +22,6 @@ const Form = () => {
             setError(true)
         }
     }
-
 
   return (
     <>
