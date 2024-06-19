@@ -17,7 +17,7 @@ function App() {
       <Footer /> 
       <br />
       <button onClick={handleClick}> 
-      App
+       Go Home
       </button>   
 
     </>

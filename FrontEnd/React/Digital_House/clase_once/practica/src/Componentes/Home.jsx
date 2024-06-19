@@ -4,11 +4,15 @@ import { useNavigate } from 'react-router-dom'
 const Home = () => {
     const navigate = useNavigate()
 
+    const handleClick = () => {
+        navigate(-1)
+      }
+
   return (
     <div>
       Estas en el Home
       <br />
-      <button onClick={() => navigate(-1)}> Go back</button>
+      <button onClick={handleClick}> Go back, App</button>
     </div>
   )
 }
