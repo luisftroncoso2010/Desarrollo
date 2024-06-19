@@ -1,16 +1,15 @@
 import './App.css'
-import  { Link } from "react-router-dom"
+import  Navbar  from './Componentes/Navbar'
+import  Footer  from './Componentes/Footer'
+import { Outlet } from 'react-router-dom'
+
 function App() { 
 
   return (
     <>
-    <nav>
-      
-      <Link to="/home" > Home </Link>
-      <Link to="/about" > About </Link>
-      <Link to="/faqs" > Faqs </Link>
-    </nav>
-      
+      <Navbar/> 
+      <Outlet /> 
+      <Footer />    
     </>
   )
 }
