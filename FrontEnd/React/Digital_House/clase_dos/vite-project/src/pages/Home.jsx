@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card } from "./Card"
+import { Card } from "../Components/Card"
 import axios from 'axios';
 
 
@@ -36,7 +36,7 @@ const Home = () => {
       <ul>
        { cart.map((pedido) => <li key={pedido.id}>{pedido.title}</li>) }
       </ul>      
-      <h1 style={titleStyle}>Lista de Pizzas</h1>
+      <h1 style={titleStyle}>Lista de Recetas</h1>
         <div className="list-container">
           {recipes.map((recipe) => <Card item={recipe} key={recipe.id} setCart={setCart} />)}       
         </div>      
