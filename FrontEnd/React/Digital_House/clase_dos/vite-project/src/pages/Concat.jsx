@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Concat = () => {
+const Concat = ({onClick}) => {
   return (
     <form>
       <h1>Envianos tu consulta</h1>
-      <input type="text" />
-      <input type="text" />
-      <button> Enviar: </button>
+      <input type="email" role='email' />
+      <input type="text" data-testid = 'consulta' />
+      <button onClick={onClick}> Enviar </button>
     </form>
   )
 }
