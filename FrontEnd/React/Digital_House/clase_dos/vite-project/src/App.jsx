@@ -11,6 +11,7 @@ import { Details } from './pages/Details'
 function App() {   
   return (
     <>
+    {/* <Contex></Contex> */}
       <Navbar/>
       {/* <Form />
       <Home/>  */}

@@ -1,11 +1,15 @@
 import CardStyle from '../Styles/Card.module.css'
-import PropTypes from 'prop-types'
 import { Counter } from './Counter';
-import { Link } from 'react-router-dom';
+import { Button } from './Button'
+import { Link, useLocation } from 'react-router-dom';
+import { useRecipesStates } from '../context/Context';
 
-const Card = ({item, setCart}) => {   
+const Card = ({item}) => {   
     
   const { image, title, pricePerServing } = item 
+  const { setCart } = useRecipesStates()
+  const location = useLocation()
+  console.log(location);
 
   return (
     <div className={CardStyle.cardContainer}>
@@ -15,7 +19,10 @@ const Card = ({item, setCart}) => {
         </Link>        
         <h4>${pricePerServing}</h4>
         <Counter />
-        <button onClick={() => setCart((prevState) =>[...prevState, item])}>🛒</button>                            
+
+        {location.pathname == '/' && (
+          <Button handleClick={() => setCart((prevState) =>[...prevState, item])}>🛒</Button>
+        )}
     </div>
   )
 }

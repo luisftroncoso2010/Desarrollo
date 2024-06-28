@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Card } from "../Components/Card"
-import axios from 'axios';
+
+import { useRecipesStates } from "../context/Context";
 
 
 const titleStyle = {
@@ -19,26 +20,13 @@ let pizzas = [
   { id: 5, tipo: 'Especial', precio: '1400', img: 'https://saboresmendoza.com/wp-content/uploads/2024/02/pizza-3.jpg' },
 ] 
 const Home = () => { 
-  const [cart, setCart] = useState([])
-  const [recipes, setRecipes] = useState([])
-  const apiKey = '68d481a0fbc340308fbf934f836ee8c6'
-  const url = 'https://api.spoonacular.com/recipes/random?number=10&apiKey='+ apiKey
-
-  useEffect(() => {
-    axios(url).then((result) => setRecipes(result.data.recipes))
-  }, [])  
-  
-  console.log(recipes);
-  
+  const { recipes } = useRecipesStates()
+  //console.log(recipes);
   return (
-    <div>
-      <h2>Pizzas seleccionadas</h2>
-      <ul>
-       { cart.map((pedido) => <li key={pedido.id}>{pedido.title}</li>) }
-      </ul>      
+    <div>          
       <h1 style={titleStyle}>Lista de Recetas</h1>
         <div className="list-container">
-          {recipes.map((recipe) => <Card item={recipe} key={recipe.id} setCart={setCart} />)}       
+          {recipes.map((recipe) => <Card item={recipe} key={recipe.id} />)}       
         </div>      
     </div>
   )

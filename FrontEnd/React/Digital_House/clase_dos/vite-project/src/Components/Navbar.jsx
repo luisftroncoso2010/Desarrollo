@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import '../Styles/Navbar.css'
 import { routes } from '../utils/routes'
+import { Button } from './Button'
 
 const Navbar = () => {
 
@@ -8,7 +9,7 @@ const Navbar = () => {
        
   return (
     <div className='navbar'>  
-      <button onClick={() => navigate(-1)}>Atras</button>  
+      <Button handleClick={() => navigate(-1)}>Atras</Button>  
       <Link to={routes.home}>
         <h4>Home</h4>
       </Link>
@@ -16,7 +17,7 @@ const Navbar = () => {
         <h4>Contacto</h4>
       </Link>
       <Link to={routes.cart}>
-        <h4>Cart</h4>
+        <h4>Cart 🛒</h4>
       </Link>
     </div>)
 }
