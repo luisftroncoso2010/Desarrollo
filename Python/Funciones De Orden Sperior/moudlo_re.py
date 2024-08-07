@@ -63,3 +63,40 @@ print('- Buscamos por tilde')
 for elemento in listaNombres:
     if re.findall('Cami[oó]n', elemento):
         print(elemento)
+
+print('     * RANGOS:')
+
+listaNombresDos = ['Ana', 'Pedro', 'María', 'Rosa', 'Sandra', 'Celia']
+
+for elemento in listaNombres:
+    # Ranfos entre la o y t dentro de sus letras
+    if re.findall('^[o-t]', elemento):
+        print(elemento)
+
+print('- Rangos al final: ')
+for elemento in listaNombres:
+    # Ranfos entre la o y t al final de sus letras
+    if re.findall('^[o-t]$', elemento):
+        print(elemento)
+
+print('- Rangos al final')
+listaCiudades = ['Ma1', 'Se1', 'Ma2', 'Ba1',
+                 'Ma3', 'Va1', 'Va2', 'Ma4', 'MaA', 'Ma5', 'MaB',
+                 'Ma.5', 'MaB', 'Ma:C']
+
+for elemento in listaCiudades:
+    # Negamos el rango con ^ inicio
+    if re.findall('Ma[0-3]', elemento):
+        print(elemento)
+
+print('- Varios rangos')
+for elemento in listaCiudades:
+    # Negamos el rango con ^ inicio
+    if re.findall('Ma[0-3A-B]', elemento):
+        print(elemento)
+
+print('- Filtramos por puntos')
+for elemento in listaCiudades:
+    # Negamos el rango con ^ inicio
+    if re.findall('Ma[.:]', elemento):
+        print(elemento)
