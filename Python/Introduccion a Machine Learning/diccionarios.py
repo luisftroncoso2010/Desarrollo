@@ -6,7 +6,7 @@ print(diciconario)
 print(diciconario['nombre'])
 print(diciconario['edad'])
 
-#Cambiar valor en diccionarios
+# Cambiar valor en diccionarios
 datosPersonales = {'pais': 'italia', 'ciudad': 'roma'}
 print(datosPersonales)
 datosPersonales['ciudad'] = 'milan'
@@ -20,7 +20,7 @@ del dict['david']
 print(dict)
 
 # Combinar un diccionario con una lista
-varones ={'jose': 18, 'david': 23}
+varones = {'jose': 18, 'david': 23}
 mujeres = {'camila': 19, 'maria': 22}
 estudiantes = list(dict.keys())  # Guardamos las llaves en una variable
 print(estudiantes)
