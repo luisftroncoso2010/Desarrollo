@@ -40,7 +40,6 @@ def sumaDos():
 print(sumaDos())
 
 
-# 
 def funcionDos():
     x = 40  # Variable local
     print(x)

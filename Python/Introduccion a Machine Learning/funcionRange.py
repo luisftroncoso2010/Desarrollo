@@ -1,4 +1,4 @@
-"""Funcion range genera números en el enteros antre el final y 
+"""Funcion range genera números en el enteros antre el final y
 el entero final"""
 
 # Genera una lista de numéros a partir de una lista

@@ -8,9 +8,8 @@ def doble(x):
 print(doble(4))
 
 
-# Doble con funcion lambda
-
-
+# Doble con funcion lambda.
+# Esuna mala practica alamacenar una funcion lambda en una varialbe
 dobleDos = lambda x: x * 2
 print(dobleDos(2))
 
@@ -25,6 +24,6 @@ listaParesDos = list(filter(lambda x: x % 2 == 0, lista))
 print(listaParesDos)
 
 # Elementos en una lista. Duplicarlos
-listaDos = [ 4, 8, 7, 69, 4, 20, 10, 11]
+listaDos = [4, 8, 7, 69, 4, 20, 10, 11]
 listaDoble = list(map(lambda x: x * 2, listaDos))
 print(listaDoble)
