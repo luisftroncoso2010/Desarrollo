@@ -17,8 +17,8 @@ print(mDos)
 
 
 # Numeros aleatorios 5 elementos de manera decimal
-mTres = np.random.randn(5)
-print(mTres)
+mTress = np.random.randn(5)
+print(mTress)
 
 
 # Numeros generar una matriz de numeros aleatorios 2 * 2
@@ -48,5 +48,5 @@ print(mSeis)
 
 
 # Matriz con 50 valores con elementos permitidos
-mSiete = np.random.choice([2, 4, 8, 10], p = [0.3, 0.5, 0.1, 0.1], size=[50])
+mSiete = np.random.choice([2, 4, 8, 10], p=[0.3, 0.5, 0.1, 0.1], size=[50])
 print(mSiete)
