@@ -43,7 +43,7 @@ while (contador < 10) {
 
 
 console.log("   * Loop: do while");
-
+/* Siempre ejecuta una opción de primero */
 let contadorDo = 0
 do {
     console.log(contadorDo);
