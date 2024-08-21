@@ -32,3 +32,11 @@ for (const key in listaDeCompras) {
 }
 
 
+console.log("   * Loop: while");
+/* While se ejecuta siempre y cuando sea true */
+let contador = 0
+
+while (contador < 10) {
+    console.log(contador);   
+    contador ++
+}
