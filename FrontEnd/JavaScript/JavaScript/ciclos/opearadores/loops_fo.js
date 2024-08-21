@@ -40,3 +40,13 @@ while (contador < 10) {
     console.log(contador);   
     contador ++
 }
+
+
+console.log("   * Loop: do while");
+
+let contadorDo = 0
+do {
+    console.log(contadorDo);
+    contadorDo++    
+} while (contadorDo < 10);
+
