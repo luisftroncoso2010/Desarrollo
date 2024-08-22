@@ -1,0 +1,139 @@
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Oswald', sans-serif;
+    color:  #000;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(54, 145, 216);
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    min-height: 80dvh;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-bottom-left-radius: 10px;
+    transition: background-color 0.5s box_shadow 0.5s ease;
+}
+
+.content:hover{
+    box-shadow: 0 0 30px black;
+
+}
+
+.content__title{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+}
+
+.content__form{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+.content__form input {
+    font-size:  15px;
+    border-radius:  10px;
+    width: 60%;
+    text-align: center;
+    transition: background-color 1s ease;
+    
+}
+
+.content__form input:focus{
+    background-color: black;
+    color: white;
+}
+
+.content__form button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.content__lista{
+    max-height: 70dvh;
+    overflow: auto;
+}
+
+.content__lista li {
+    list-style-type: none;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0;
+
+}
+
+.btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn_eliminar{
+    background-image: url(../img/borrar.png);
+}
+
+.btn_editar{
+    background-image: url(../img/lapiz.png);
+}
+
+.btn-enviar{
+    background-image: url(../img/boton-agregar.png);   
+}
+
+.spanContenido{
+    min-width: 150px;
+    max-width: 150px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-left: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(34, 94, 141));
+}
+
+
+@media screen and(min-width: 720px) {
+    .content{
+        width: 50%;
+    }
+}
+
+@media screen and(min-width: 1282px) {
+    .content{
+        width: 50%;
+    }
+}
+
