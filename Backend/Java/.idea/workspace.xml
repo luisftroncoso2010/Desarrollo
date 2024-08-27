@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8badce23-ee78-4ead-ac4a-d73501c4c2b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Diplomado Java -  Ejecicios/Ejercicios modulo Uno/Módulo 1 - Ejercicios Clase Math.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diplomado Java -  Ejecicios/Ejercicios modulo Uno/Módulo 1 - Ejercicios Operaciones.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diplomado Java -  Ejecicios/Ejercicios modulo Uno/Módulo 1 - Ejercicios Variables.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicas/Exepciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicas/Exepciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practicas/practica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/Digital_House/practica/src/Components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/React/Digital_House/practica/src/Components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_dos/vite-project/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_uno/Ejemplo_tres/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_uno/Ejemplo_tres/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_uno/Ejemplo_uno/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_uno/ejemplo_cuatro/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FrontEnd/React/clase_uno/practica.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hVzjneBztcuWqZTHX03LLTy5en" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/tronc/IdeaProjects",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8badce23-ee78-4ead-ac4a-d73501c4c2b4" name="Changes" comment="" />
+      <created>1717694173287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717694173287</updated>
+    </task>
+    <servers />
+  </component>
+</project>
