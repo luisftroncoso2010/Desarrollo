@@ -42,6 +42,6 @@ console.log(firstFruits);
 
 // length property
 const numberOfFruits = fruits.length
-console.log(numberOfFruits);
+console.log(numberOfFruits);  // Introducción a los arrays
 
 
