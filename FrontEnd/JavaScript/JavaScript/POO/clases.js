@@ -4,6 +4,7 @@ class Persona{
         this.nombre = nombre,
         this.edad = edad
     }
+    // Metódo
     saludar(){
         console.log(`Hola. Mi nombre es ${this.nombre} y tengo ${this.edad}`);
     }
