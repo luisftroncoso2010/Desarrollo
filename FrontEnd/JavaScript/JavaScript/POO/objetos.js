@@ -16,7 +16,7 @@ const persona = {
         calle: 'An Insurgentes 187',
         ciudad: 'CDMX'
     },
-    saludar(){
+    saludar(){  // Acciones que hacen ls objetos invocarse
         console.log(`Hola mi nombre es ${persona.nombre}`);        
     }
 }
