@@ -8,7 +8,6 @@ class Animal{
     emitirSonido(){
         console.log('EL animal emite un sonido');
     }
-
 }
 
 class Perro extends Animal{
@@ -38,3 +37,17 @@ console.log(Animal.prototype);
 console.log();
 
 
+// Creamos un metodo apartir de la instancia. Al prototypo
+perroUno.nuevoMetodo = function () {
+    console.log("Nuevo metodo apartir del objeto. (Perro uno)"); 
+}
+
+console.log(perroUno);
+perroUno.nuevoMetodo()
+
+// Aca se debe agregar la clase.
+Perro.prototype.segundoMetodo = function (){
+    console.log('Es otro nuevo metodo (Metodos Dos)');
+}
+
+perroUno.segundoMetodo()
