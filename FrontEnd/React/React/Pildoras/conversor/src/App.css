@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+button, .resultado{
+  margin-top: 24px;
+  font-weight: bold;
+}
+
+body{  
+  width: 100vw;
+  height: 100vh;
+  background-image: url('imgs/dollar.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
