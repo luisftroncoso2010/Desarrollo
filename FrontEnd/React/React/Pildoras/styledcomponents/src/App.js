@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import { MiCaja } from './style';
-import './App.css';
+import { MiBotonLargo } from './styled2';
+
 
 function App() {
   return (
     <div className="App">
-      <MiCaja>Salir</MiCaja>
-      
+      <MiCaja entrar={false}>Entrar</MiCaja>
+      <MiCaja entrar={true}>Salir</MiCaja>
+      <MiBotonLargo>Salir</MiBotonLargo> 
     </div>
   );
 }
