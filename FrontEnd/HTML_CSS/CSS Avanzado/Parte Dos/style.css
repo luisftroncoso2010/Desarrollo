@@ -1,0 +1,52 @@
+
+#contenedor{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#columna-izq{
+    width: 700px;
+    float: left;
+    background-color: greenyellow;
+}
+
+#columna-der{
+    width: 260px;
+    float: left;
+    background-color: coral;
+
+}
+
+
+@media screen and (max-width: 959px){
+    #contenedor{
+        width: 100%;
+    }
+
+    #columna-izq{
+        width: 70%;
+    }
+
+    #columna-der{
+        width: 30%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 740px){
+    #contenedor{
+        width: 100%;
+    }
+
+    #columna-izq{
+        width: 100%;
+    }
+
+    #columna-der{
+        width: 100%;
+    }
+}
