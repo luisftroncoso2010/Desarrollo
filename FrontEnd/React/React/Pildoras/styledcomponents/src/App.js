@@ -2,7 +2,7 @@ import { MiCaja } from './style';
 import { MiBotonLargo } from './styled2';
 
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <MiCaja entrar={false}>Entrar</MiCaja>

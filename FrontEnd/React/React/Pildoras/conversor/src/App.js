@@ -21,7 +21,7 @@ function App() {
         console.log(datos);
         
         /* Accesedemos a la tasa de valor cambio */
-        setValorCambio(datos.conversion_rates.USD)
+        setValorCambio(datos.conversion_rates.EUR)
         
       } catch (error) {
         /* Dado el caso que no traiga nada o haya error mostrará este mensaje */
