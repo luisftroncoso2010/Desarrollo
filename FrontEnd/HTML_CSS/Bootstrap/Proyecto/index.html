@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos. Codificacion de los caracteres -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Luis Fernando">
+    <meta name="description" content="Portafolio de desarrrollo wed de Luis Fernando">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <!-- Metadatos.Para que se ajute a distintos tamaños -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Style/style.css">
+    <!-- Titulo -->
+    <title>Luis Fernando | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+     <link rel="icon" type="imge/x-icon" href="Img/arrows-fullscreen.svg">
+     <!-- Fuentes -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./Img/arrows-fullscreen.svg" width="50" alt="Logo de la pagina Web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+     <section class="hero align-items-stretch">
+         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="./Img/desarrollador-ejemplo.svg" alt="Foto de Luis Fernando">
+            <h1>Hola, Soy Luis Fernando</h1>
+            <h2>Desarrollo sitios webs y escribo artículos sobre programación</h2>
+         </div> 
+         <div class="hero-inferior">
+            <img src="Img/hero-inferior.svg" class="hero-inferior-imagen img-fluid" alt="Monitor, Laptop, y logos de Html, Css, JavaScript y React.">
+         </div>       
+     </section>
+
+     <!-- Sobre mi -->
+     <section class="sobre-mi seccion-oscura">
+      
+
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Conoce a Luis Fernando</h2>
+        <p class="seccion-texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius nihil asperiores maxime, aliquam impedit odit ab vero aperiam! Beatae quod sed cupiditate voluptatibus aliquid voluptates omnis sapiente animi reiciendis cum?</p>
+      </div>
+     </section>
+
+     <!-- Experiencia -->
+      <section class="experiencia seccion-clara">
+        <div class="container text-center">
+          <div class="row">
+            <!-- Desarrollo web -->
+             <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+              <p class="experiencia-titulo">Desarrollo Web:</p>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam a harum temporibus? Neque ipsum, quae error aut nobis enim expedita architecto at dicta</p>
+              <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Html</span>
+                <span class="badge text-bg-primary">Css</span>
+                <span class="badge text-bg-primary">JavaScript</span>
+                <span class="badge text-bg-primary">React</span>
+              </div>
+             </div>
+             <!-- Articulos -->
+              <div class="columna col-12 col-md-4">               
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Artículos</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam a harum temporibus? Neque ipsum, quae error aut nobis enim expedita architecto at dicta</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">Escribir</span>
+                  <span class="badge text-bg-primary">Editar</span>
+                  <span class="badge text-bg-primary">Blog</span>                  
+                </div>
+              </div>
+              <!-- Estudiantes -->
+               <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Estudios</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam a harum temporibus? Neque ipsum, quae error aut nobis enim expedita architecto at dicta</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">W3scool</span>
+                  <span class="badge text-bg-primary">Python</span>
+                  <span class="badge text-bg-primary">Data Science</span>
+                  
+                </div>
+               </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+       <section class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyetos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente</h3>
+        
+        <!-- Galeria de proyectos -->
+         <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- proyecto uno -->
+            <div class="col-12 col-md-6 col-lg-4">              
+              <div class="proyecto">
+                <img src="./Img/proyecto1.png" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>Proyecto 1</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/luisftroncoso2010" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Proyecto/index.html " target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- proyecto Dos -->
+            <div class="col-12 col-md-6 col-lg-4">              
+              <div class="proyecto">
+                <img src="./Img/proyecto2.png" alt="Proyecto 2">
+                <div class="overlay">
+                  <p>Proyecto 2</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/luisftroncoso2010" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Proyecto/index.html " target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- proyecto Tres -->
+            <div class="col-12 col-md-6 col-lg-4">              
+              <div class="proyecto">
+                <img src="./Img/proyecto3.png" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>Proyecto 3</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/luisftroncoso2010" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Proyecto/index.html " target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- proyecto Cuatro -->
+            <div class="col-12 col-md-6 col-lg-4">              
+              <div class="proyecto">
+                <img src="./Img/proyecto4.png" alt="Proyecto 4">
+                <div class="overlay">
+                  <p>Proyecto 4</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/luisftroncoso2010" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Proyecto/index.html " target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- proyecto Cinco -->
+            <div class="col-12 col-md-6 col-lg-4">              
+              <div class="proyecto">
+                <img src="./Img/proyecto5.png" alt="Proyecto 5">
+                <div class="overlay">
+                  <p>Proyecto 5</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/luisftroncoso2010" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Proyecto/index.html " target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- proyecto Seis -->
+            <div class="col-12 col-md-6 col-lg-4">              
+              <div class="proyecto">
+                <img src="./Img/proyecto6.png" alt="Proyecto 6">
+                <div class="overlay">
+                  <p>Proyecto 6</p>
+                  <div class="iconos-contenedor">
+                    <a href="https://github.com/luisftroncoso2010" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="http://127.0.0.1:5500/Proyecto/index.html " target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>          
+
+          </div>
+
+         </div>
+         <a href="https://github.com/luisftroncoso2010/Desarrollo/tree/master/FrontEnd/HTML_CSS/Proyectos" target="_blank" rel="noopener noreferrer">
+           <button type="button" class="btn btn-info">
+            Ver mas proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+         </a>
+       </section>
+
+       <!-- Lista de Articulos -->
+        <section class="articulos justify-content-start">
+          <h2 class="seccion-titulo texto-negro">Artículos</h2>
+          <div class="card">
+            <div class="card-header">
+              Más Recientes..
+            </div>
+            <ul class="list-group list-group-flush">
+
+              <a href="https://www.freecodecamp.org/espanol/news/jorge-baumann-dominando-el-frontend-con-vue-js-s3-ep-1/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Jorge Baumann: Dominando el Frontend con Vue.js | S3 Ep. 1</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news/no-utilices-el-sistema-ruby-de-mac-en-su-lugar-utiliza-esto//" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">No utilices el sistema Ruby de Mac: En su lugar utiliza esto</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news/como-recuperar-datos-en-react-hoja-de-trucos-ejemplos//" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Cómo recuperar datos en React: hoja de trucos + ejemplos</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news/como-acceder-a-las-propiedades-de-un-arreglo-de-objetos-en-javascript/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Cómo acceder a las propiedades de un arreglo de objetos en JavaScript</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news/como-hacer-un-menu-acordion/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Cómo hacer un menú acordeón en React, desde cero y sin librerías externas</li>
+              </a>
+              <a href="https://www.freecodecamp.org/espanol/news/aprende-c-sharp-para-unity-curso-desde-cero/" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">Aprende C# para Unity - Curso desde cero</li>
+              </a>
+            
+            </ul>
+          </div>
+
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+              Ver mas artículos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+           </button>
+          </a>
+
+        </section>
+
+        <!-- Testimonios -->
+         <section class="testimonios seccion-clara">
+          <h2 class="seccion-titulo">Testimonios</h2>
+          <h3 class="seccion-descripcion">Estos son algunos testimonios de mis colegas y clientes....</h3>
+
+          <!-- Carrusel -->
+          <div id="testimonios-carrusel" class="carousel carousel-dark slide">            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="img/cliente1.svg" alt="Foto de Gino">
+                  <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellat possimus officiis alias quis perferendis dolore illum! Voluptatem enim.</p>
+                  <div class="testimonio-info">
+                    <p class="cliente">Gino</p>
+                    <P class="cargo">Gerente de proyectos de Desarrollo Web</P>
+                  </div>
+                </div>                
+              </div>
+              <div class="carousel-item ">
+                <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="img/cliente2.svg" alt="Foto de Nora">
+                  <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellat possimus officiis alias quis perferendis dolore illum! Voluptatem enim.</p>
+                  <div class="testimonio-info">
+                    <p class="cliente">Nora</p>
+                    <P class="cargo">Gerente de proyectos de Diseño Web</P>
+                  </div>
+                </div> 
+              </div>
+
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="img/cliente3.svg" alt="Foto de Jeison">
+                  <p class="testimonio-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellat possimus officiis alias quis perferendis dolore illum! Voluptatem enim.</p>
+                  <div class="testimonio-info">
+                    <p class="cliente">Jeison</p>
+                    <P class="cargo">Gerente de proyectos de Desarrolo Back-End</P>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+         </section>
+
+         <!-- Contacto -->
+         <section class="contacto seccion-oscura">
+          <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+              <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                  ¡Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                  Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión
+                </div>
+                <div class="col-12 col-md-4">
+                  <a href="mailto:luis@micorreo.com">
+                    <button type="button">
+                      Contacto
+                      <i class="bi bi-envelope-check-fill"></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+         </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
